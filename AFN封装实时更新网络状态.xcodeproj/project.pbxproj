@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		745F1FA71E5FE01700F44655 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 745F1FA61E5FE01700F44655 /* main.m */; };
+		745F1FAA1E5FE01700F44655 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 745F1FA91E5FE01700F44655 /* AppDelegate.m */; };
+		745F1FAD1E5FE01700F44655 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 745F1FAC1E5FE01700F44655 /* ViewController.m */; };
+		745F1FB01E5FE01700F44655 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 745F1FAE1E5FE01700F44655 /* Main.storyboard */; };
+		745F1FB21E5FE01700F44655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 745F1FB11E5FE01700F44655 /* Assets.xcassets */; };
+		745F1FB51E5FE01700F44655 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 745F1FB31E5FE01700F44655 /* LaunchScreen.storyboard */; };
+		745F1FC01E5FE01700F44655 /* AFN__________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 745F1FBF1E5FE01700F44655 /* AFN__________Tests.m */; };
+		745F1FCB1E5FE01700F44655 /* AFN__________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 745F1FCA1E5FE01700F44655 /* AFN__________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		745F1FBC1E5FE01700F44655 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 745F1F9A1E5FE01700F44655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 745F1FA11E5FE01700F44655;
+			remoteInfo = "AFN封装实时更新网络状态";
+		};
+		745F1FC71E5FE01700F44655 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 745F1F9A1E5FE01700F44655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 745F1FA11E5FE01700F44655;
+			remoteInfo = "AFN封装实时更新网络状态";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		745F1FA21E5FE01700F44655 /* AFN封装实时更新网络状态.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AFN封装实时更新网络状态.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		745F1FA61E5FE01700F44655 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		745F1FA81E5FE01700F44655 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		745F1FA91E5FE01700F44655 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		745F1FAB1E5FE01700F44655 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		745F1FAC1E5FE01700F44655 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		745F1FAF1E5FE01700F44655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		745F1FB11E5FE01700F44655 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		745F1FB41E5FE01700F44655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		745F1FB61E5FE01700F44655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		745F1FBB1E5FE01700F44655 /* AFN封装实时更新网络状态Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AFN封装实时更新网络状态Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		745F1FBF1E5FE01700F44655 /* AFN__________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AFN__________Tests.m"; sourceTree = "<group>"; };
+		745F1FC11E5FE01700F44655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		745F1FC61E5FE01700F44655 /* AFN封装实时更新网络状态UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AFN封装实时更新网络状态UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		745F1FCA1E5FE01700F44655 /* AFN__________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AFN__________UITests.m"; sourceTree = "<group>"; };
+		745F1FCC1E5FE01700F44655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		745F1F9F1E5FE01700F44655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		745F1FB81E5FE01700F44655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		745F1FC31E5FE01700F44655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		745F1F991E5FE01700F44655 = {
+			isa = PBXGroup;
+			children = (
+				745F1FA41E5FE01700F44655 /* AFN封装实时更新网络状态 */,
+				745F1FBE1E5FE01700F44655 /* AFN封装实时更新网络状态Tests */,
+				745F1FC91E5FE01700F44655 /* AFN封装实时更新网络状态UITests */,
+				745F1FA31E5FE01700F44655 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		745F1FA31E5FE01700F44655 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				745F1FA21E5FE01700F44655 /* AFN封装实时更新网络状态.app */,
+				745F1FBB1E5FE01700F44655 /* AFN封装实时更新网络状态Tests.xctest */,
+				745F1FC61E5FE01700F44655 /* AFN封装实时更新网络状态UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		745F1FA41E5FE01700F44655 /* AFN封装实时更新网络状态 */ = {
+			isa = PBXGroup;
+			children = (
+				745F1FA81E5FE01700F44655 /* AppDelegate.h */,
+				745F1FA91E5FE01700F44655 /* AppDelegate.m */,
+				745F1FAB1E5FE01700F44655 /* ViewController.h */,
+				745F1FAC1E5FE01700F44655 /* ViewController.m */,
+				745F1FAE1E5FE01700F44655 /* Main.storyboard */,
+				745F1FB11E5FE01700F44655 /* Assets.xcassets */,
+				745F1FB31E5FE01700F44655 /* LaunchScreen.storyboard */,
+				745F1FB61E5FE01700F44655 /* Info.plist */,
+				745F1FA51E5FE01700F44655 /* Supporting Files */,
+			);
+			path = "AFN封装实时更新网络状态";
+			sourceTree = "<group>";
+		};
+		745F1FA51E5FE01700F44655 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				745F1FA61E5FE01700F44655 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		745F1FBE1E5FE01700F44655 /* AFN封装实时更新网络状态Tests */ = {
+			isa = PBXGroup;
+			children = (
+				745F1FBF1E5FE01700F44655 /* AFN__________Tests.m */,
+				745F1FC11E5FE01700F44655 /* Info.plist */,
+			);
+			path = "AFN封装实时更新网络状态Tests";
+			sourceTree = "<group>";
+		};
+		745F1FC91E5FE01700F44655 /* AFN封装实时更新网络状态UITests */ = {
+			isa = PBXGroup;
+			children = (
+				745F1FCA1E5FE01700F44655 /* AFN__________UITests.m */,
+				745F1FCC1E5FE01700F44655 /* Info.plist */,
+			);
+			path = "AFN封装实时更新网络状态UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		745F1FA11E5FE01700F44655 /* AFN封装实时更新网络状态 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 745F1FCF1E5FE01700F44655 /* Build configuration list for PBXNativeTarget "AFN封装实时更新网络状态" */;
+			buildPhases = (
+				745F1F9E1E5FE01700F44655 /* Sources */,
+				745F1F9F1E5FE01700F44655 /* Frameworks */,
+				745F1FA01E5FE01700F44655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AFN封装实时更新网络状态";
+			productName = "AFN封装实时更新网络状态";
+			productReference = 745F1FA21E5FE01700F44655 /* AFN封装实时更新网络状态.app */;
+			productType = "com.apple.product-type.application";
+		};
+		745F1FBA1E5FE01700F44655 /* AFN封装实时更新网络状态Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 745F1FD21E5FE01700F44655 /* Build configuration list for PBXNativeTarget "AFN封装实时更新网络状态Tests" */;
+			buildPhases = (
+				745F1FB71E5FE01700F44655 /* Sources */,
+				745F1FB81E5FE01700F44655 /* Frameworks */,
+				745F1FB91E5FE01700F44655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				745F1FBD1E5FE01700F44655 /* PBXTargetDependency */,
+			);
+			name = "AFN封装实时更新网络状态Tests";
+			productName = "AFN封装实时更新网络状态Tests";
+			productReference = 745F1FBB1E5FE01700F44655 /* AFN封装实时更新网络状态Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		745F1FC51E5FE01700F44655 /* AFN封装实时更新网络状态UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 745F1FD51E5FE01700F44655 /* Build configuration list for PBXNativeTarget "AFN封装实时更新网络状态UITests" */;
+			buildPhases = (
+				745F1FC21E5FE01700F44655 /* Sources */,
+				745F1FC31E5FE01700F44655 /* Frameworks */,
+				745F1FC41E5FE01700F44655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				745F1FC81E5FE01700F44655 /* PBXTargetDependency */,
+			);
+			name = "AFN封装实时更新网络状态UITests";
+			productName = "AFN封装实时更新网络状态UITests";
+			productReference = 745F1FC61E5FE01700F44655 /* AFN封装实时更新网络状态UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		745F1F9A1E5FE01700F44655 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "纵昂";
+				TargetAttributes = {
+					745F1FA11E5FE01700F44655 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					745F1FBA1E5FE01700F44655 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 745F1FA11E5FE01700F44655;
+					};
+					745F1FC51E5FE01700F44655 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 745F1FA11E5FE01700F44655;
+					};
+				};
+			};
+			buildConfigurationList = 745F1F9D1E5FE01700F44655 /* Build configuration list for PBXProject "AFN封装实时更新网络状态" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 745F1F991E5FE01700F44655;
+			productRefGroup = 745F1FA31E5FE01700F44655 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				745F1FA11E5FE01700F44655 /* AFN封装实时更新网络状态 */,
+				745F1FBA1E5FE01700F44655 /* AFN封装实时更新网络状态Tests */,
+				745F1FC51E5FE01700F44655 /* AFN封装实时更新网络状态UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		745F1FA01E5FE01700F44655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				745F1FB51E5FE01700F44655 /* LaunchScreen.storyboard in Resources */,
+				745F1FB21E5FE01700F44655 /* Assets.xcassets in Resources */,
+				745F1FB01E5FE01700F44655 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		745F1FB91E5FE01700F44655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		745F1FC41E5FE01700F44655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		745F1F9E1E5FE01700F44655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				745F1FAD1E5FE01700F44655 /* ViewController.m in Sources */,
+				745F1FAA1E5FE01700F44655 /* AppDelegate.m in Sources */,
+				745F1FA71E5FE01700F44655 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		745F1FB71E5FE01700F44655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				745F1FC01E5FE01700F44655 /* AFN__________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		745F1FC21E5FE01700F44655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				745F1FCB1E5FE01700F44655 /* AFN__________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		745F1FBD1E5FE01700F44655 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 745F1FA11E5FE01700F44655 /* AFN封装实时更新网络状态 */;
+			targetProxy = 745F1FBC1E5FE01700F44655 /* PBXContainerItemProxy */;
+		};
+		745F1FC81E5FE01700F44655 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 745F1FA11E5FE01700F44655 /* AFN封装实时更新网络状态 */;
+			targetProxy = 745F1FC71E5FE01700F44655 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		745F1FAE1E5FE01700F44655 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				745F1FAF1E5FE01700F44655 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		745F1FB31E5FE01700F44655 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				745F1FB41E5FE01700F44655 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		745F1FCD1E5FE01700F44655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		745F1FCE1E5FE01700F44655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		745F1FD01E5FE01700F44655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AFN封装实时更新网络状态/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.AFN----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		745F1FD11E5FE01700F44655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AFN封装实时更新网络状态/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.AFN----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		745F1FD31E5FE01700F44655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AFN封装实时更新网络状态Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.AFN----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AFN封装实时更新网络状态.app/AFN封装实时更新网络状态";
+			};
+			name = Debug;
+		};
+		745F1FD41E5FE01700F44655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AFN封装实时更新网络状态Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.AFN----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AFN封装实时更新网络状态.app/AFN封装实时更新网络状态";
+			};
+			name = Release;
+		};
+		745F1FD61E5FE01700F44655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AFN封装实时更新网络状态UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.AFN----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "AFN封装实时更新网络状态";
+			};
+			name = Debug;
+		};
+		745F1FD71E5FE01700F44655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AFN封装实时更新网络状态UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.AFN----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "AFN封装实时更新网络状态";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		745F1F9D1E5FE01700F44655 /* Build configuration list for PBXProject "AFN封装实时更新网络状态" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				745F1FCD1E5FE01700F44655 /* Debug */,
+				745F1FCE1E5FE01700F44655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		745F1FCF1E5FE01700F44655 /* Build configuration list for PBXNativeTarget "AFN封装实时更新网络状态" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				745F1FD01E5FE01700F44655 /* Debug */,
+				745F1FD11E5FE01700F44655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		745F1FD21E5FE01700F44655 /* Build configuration list for PBXNativeTarget "AFN封装实时更新网络状态Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				745F1FD31E5FE01700F44655 /* Debug */,
+				745F1FD41E5FE01700F44655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		745F1FD51E5FE01700F44655 /* Build configuration list for PBXNativeTarget "AFN封装实时更新网络状态UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				745F1FD61E5FE01700F44655 /* Debug */,
+				745F1FD71E5FE01700F44655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 745F1F9A1E5FE01700F44655 /* Project object */;
+}
